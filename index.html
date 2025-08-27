@@ -1,1 +1,106 @@
-
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <link rel="stylesheet" href="stylesen.css">
+  <script src="script.js"></script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Digital Agency — Coding & Video Editing</title>
+  <meta name="description" content="Digital agency specialized in web development and video editing."/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#content" class="skip-link">Go to content</a>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand cluster" href="#">
+        <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 2c1.7 0 3.1 1.4 3.1 3.1 0 .3 0 .6-.1.9 0 .1 0 .2.1.2 1.2.2 2.2.8 3 1.7.8.9 1.2 2.1 1.2 3.3 0 3.9-2.9 8.8-7.3 8.8S4.7 15.1 4.7 11.2c0-1.2.4-2.4 1.2-3.3.8-.9 1.8-1.5 3-1.7.1 0 .2-.1.1-.2-.1-.3-.1-.6-.1-.9C8.9 3.4 10.3 2 12 2z" fill="currentColor"/></svg>
+        <span>DigitalAgency</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="badge">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero" id="home">
+    <div class="container center">
+      <p class="muted">Digital Agency</p>
+      <h1>We turn your ideas <br/> into digital projects.</h1>
+      <p>Premium web development and video editing, tailored for your professional and creative needs.</p>
+      <div class="cta cluster center" style="justify-content:center">
+        <a class="btn" href="#contact">Contact Us</a>
+        <a class="btn secondary" href="#services">Our Services</a>
+      </div>
+    </div>
+  </section>
+  <main id="content" class="container">
+    <section id="services" class="tiles" aria-label="Services">
+      <article class="tile">
+        <div>
+          <p class="badge">Coding</p>
+          <h3>Web Development</h3>
+          <p>Showcase sites, e-commerce, custom web apps, and professional automations.</p>
+          <div class="cluster" style="margin-top:1rem">
+            <a class="btn" href="#contact">Contact Us</a>
+          </div>
+        </div>
+        <div class="visual"><span>Code & Projects</span></div>
+      </article>
+      <article class="tile">
+        <div class="visual"><span>Video Editing</span></div>
+        <div>
+          <p class="badge">Video</p>
+          <h3>Video Editing</h3>
+          <p>Professional video creation and editing for YouTube, social media, and ads.</p>
+          <div class="cluster" style="margin-top:1rem">
+            <a class="btn" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="portfolio" class="features" aria-label="Portfolio">
+      <div class="feature stack">
+        <h4>Web Project</h4>
+        <p class="muted">A responsive e-commerce site for a professional client.</p>
+      </div>
+      <div class="feature stack">
+        <h4>Promo Video</h4>
+        <p class="muted">Editing of a dynamic and creative marketing campaign video.</p>
+      </div>
+      <div class="feature stack">
+        <h4>Application</h4>
+        <p class="muted">Custom web application for task automation.</p>
+      </div>
+    </section>
+    <section id="faq" class="stack" aria-label="FAQ">
+      <h3 class="center" style="font-size:var(--step-1)">Frequently Asked Questions</h3>
+      <details>
+        <summary>What services do you offer?</summary>
+        <p>Web development, custom applications, video editing, and digital consulting.</p>
+      </details>
+      <details>
+        <summary>How can we work with you?</summary>
+        <p>Contact us via the form, we discuss your project, and send a personalized quote.</p>
+      </details>
+    </section>
+    <section id="contact" class="cta-section">
+      <div class="cta-card stack">
+        <h3 style="font-size:var(--step-1); margin:0">Ready to start your project?</h3>
+        <p class="muted" style="margin:0">Fill out the form or contact us directly.</p>
+        <div class="cluster" style="justify-content:center">
+          <a class="btn" href="mailto:contact@agencedigitale.com">Send an Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Digital Agency. All rights reserved.</small>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
